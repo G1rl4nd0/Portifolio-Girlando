@@ -29,7 +29,7 @@
   }
 
   .menu-hamburguer-elements a:hover {
-    color: rgb(214, 161, 214);
+    color: #06b6d4;
   }
 
   .menu-hamburger {
@@ -43,20 +43,20 @@
   }
 
   .menu-hamburguer-elements {
-    width: 60%;
+    width: 100%;
     height: 100%;
-    background-color: rgba(10, 10, 10, 0.9);
+    background-color: rgb(50 49 49 / 78%);
     position: fixed;
-    left: -60%;
+    left: -100%;
     top: 0;
 
     transition: left cubic-bezier(1, 0, 0, 1) 0.8s;
-
+    backdrop-filter: blur(1rem);
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: normal;
-
+    justify-content: center;
+    padding-bottom: 400px;
     z-index: -1;
   }
 
