@@ -14,7 +14,6 @@
     max-width: 100%;
     text-align: center;
     align-items: center;
-    margin-top: 40%;
   }
 
   .projetos .container-projetos {
@@ -27,6 +26,13 @@
 @media (max-width: 600px) {
   .home {
     margin: 0;
+  }
+
+  .home .informacoes {
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-top: 40%;
   }
 
   .cabecalho {
