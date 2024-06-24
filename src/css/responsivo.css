@@ -24,8 +24,14 @@
 
 /* ATIVANDO O BOTÃO HAMBURGUER QUANDO O TAMANHO DA TELA ATINGIR 600PX */
 @media (max-width: 600px) {
-  header {
-    height: 20%;
+  .home {
+    margin: 0;
+  }
+
+  .cabecalho {
+    position: fixed;
+    gap: 200px;
+    background-color: black;
   }
 
   .menu-hamburguer-elements a:hover {
