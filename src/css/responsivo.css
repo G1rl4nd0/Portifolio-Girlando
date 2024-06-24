@@ -30,7 +30,7 @@
 
   .cabecalho {
     position: fixed;
-    gap: 200px;
+    width: 100%;
     background-color: black;
   }
 
