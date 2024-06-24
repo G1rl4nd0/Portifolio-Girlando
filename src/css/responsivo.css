@@ -1,91 +1,86 @@
-@media(max-width: 1280px) {
-    
-    .cabecalho {
-        padding: 14px;
-    }
+@media (max-width: 1280px) {
+  .cabecalho {
+    padding: 14px;
+  }
 
-    .home {
-        flex-direction: column;
-        align-items: center;
-        margin: 30px 0;
-        gap: 30px;
-    }
+  .home {
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+    gap: 30px;
+  }
 
-    .home .informacoes {
-        max-width: 100%;
-        text-align: center;
-        align-items: center;
-    }
+  .home .informacoes {
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+  }
 
-    .projetos .container-projetos {
-        padding: 0 30px;
-        text-align: center;
-    }
+  .projetos .container-projetos {
+    padding: 0 30px;
+    text-align: center;
+  }
 }
 
 /* ATIVANDO O BOTÃO HAMBURGUER QUANDO O TAMANHO DA TELA ATINGIR 600PX */
-@media (max-width: 600px){
-    
-    header{
-        height: 20%;
-    }
+@media (max-width: 600px) {
+  header {
+    height: 20%;
+  }
 
-    .menu-hamburguer-elements a:hover{
-        color: rgb(214, 161, 214);
-    }
-    
-    .menu-hamburger{
-        display: flex;
-        width: auto;
-        flex-direction: column;
-        align-self: flex-start;
-        overflow: auto;
-        z-index: 1;
-        color: white
-    }
+  .menu-hamburguer-elements a:hover {
+    color: rgb(214, 161, 214);
+  }
 
-    .menu-hamburguer-elements{
-        width: 60%;
-        height: 100%;
-        background-color: rgba(10,10,10,.9);
-        position: fixed;
-        left: -60%;
-        top: 0;
-    
-        transition: left cubic-bezier(1,0,0,1) .8s;
-        
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-    
-        padding-top: 15vh;
-    
-        z-index: -1;
-    }
+  .menu-hamburger {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    align-self: flex-start;
+    overflow: auto;
+    z-index: 1;
+    color: white;
+  }
 
-    .menu{
-        display: flex;
-        height: 60px;
-        width: 60px;
-    }
+  .menu-hamburguer-elements {
+    width: 60%;
+    height: 100%;
+    background-color: rgba(10, 10, 10, 0.9);
+    position: fixed;
+    left: -60%;
+    top: 0;
 
+    transition: left cubic-bezier(1, 0, 0, 1) 0.8s;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: normal;
+
+    z-index: -1;
+  }
+
+  .menu {
+    display: flex;
+    height: 60px;
+    width: 60px;
+  }
 }
 
-@media(max-width: 425px) {
-    .home .informacoes h1 {
-        font-size: 30px;
-    }
+@media (max-width: 425px) {
+  .home .informacoes h1 {
+    font-size: 30px;
+  }
 
-    .home .informacoes p {
-        font-size: 16px;
-    }
+  .home .informacoes p {
+    font-size: 16px;
+  }
 
-    .home .container-foto img {
-        max-width: 320px;
-    }
+  .home .container-foto img {
+    max-width: 320px;
+  }
 
-    .projetos {
-        padding: 30px;
-    }
+  .projetos {
+    padding: 30px;
+  }
 }
