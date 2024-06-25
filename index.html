@@ -25,34 +25,38 @@
     <link rel="stylesheet" href="./src/css/reset.css" />
     <link rel="stylesheet" href="./src/css/estilos.css" />
     <link rel="stylesheet" href="./src/css/responsivo.css" />
+    <link rel="stylesheet" href="./src/css/carrosel.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11.1.4/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <header class="cabecalho">
       <a href="#">
-        <img class="logo" src="src/imagens/programmer 1.png"></img>
+        <img class="logo" src="src/imagens/programmer 1.png" />
       </a>
 
       <nav class="menu-hamburger">
-
         <input id="menu-hamburguer" type="checkbox" />
         <label for="menu-hamburguer">
-            <div class="menu">
-                <span class="hamburguer"></span>
-            </div>
+          <div class="menu">
+            <span class="hamburguer"></span>
+          </div>
         </label>
 
         <ul class="menu-hamburguer-elements show">
-            <li>
-                <a href="#" class="menu-link" >inicio</a>
-            </li>
+          <li>
+            <a href="#" class="menu-link">Inicio</a>
+          </li>
 
-            <li>
-                <a href="#" class="menu-link">sobre Mim</a>
-            </li>
+          <li>
+            <a href="#" class="menu-link">Sobre Mim</a>
+          </li>
 
-            <li>
-                <a href="#projetos" class="menu-link">Projetos</a>
-            </li>
+          <li>
+            <a href="#projetos" class="menu-link">Projetos</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -112,133 +116,148 @@
         </div>
       </div>
     </section>
-    <section class="projetos" id="projetos">
+
+    <div class="titulo-projetos">
       <h2 class="titulo">Meus projetos</h2>
+    </div>
 
-      <div class="container-projetos">
+    <div class="corpo-body">
+      <div class="slide-container swiper">
+        <div class="slide-content">
+          <div class="card-wrapper swiper-wrapper">
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
 
-        <div class="projeto ativo">
-          <a
-            href="https://github.com/G1rl4nd0/Sistema-financeiro"
-            target="_blank"
-          >
-            <img
-              src="./src/imagens/sistema-financeiro.PNG"
-              alt="Projeto listagem de pokemons"
-            />
-            <h3>Projeto 1</h3>
-            <div class="informacoes-projeto">
-              <p>Projeto feito usando HTML, CSS e JavaScript</p>
-              <p>🔗 Ver no GitHub Pages</p>
+                <div class="card-image">
+                  <img
+                    src="./src/imagens/memoteca.PNG"
+                    alt="memoteca"
+                    class="card-img"
+                  />
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">David Dell</h2>
+                <p class="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam dolorem odit, inventore ipsum eveniet aspernatur
+                  unde officiis. Odio porro corporis ducimus voluptates harum
+                  ex, excepturi corrupti, explicabo ipsum, nam voluptate.
+                </p>
+
+                <button class="button">View more</button>
+              </div>
             </div>
-          </a>
+
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img
+                    src="./src/imagens/memoteca.PNG"
+                    alt="memoteca"
+                    class="card-img"
+                  />
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">David Dell</h2>
+                <p class="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam dolorem odit, inventore ipsum eveniet aspernatur
+                  unde officiis. Odio porro corporis ducimus voluptates harum
+                  ex, excepturi corrupti, explicabo ipsum, nam voluptate.
+                </p>
+
+                <button class="button">View more</button>
+              </div>
+            </div>
+
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img
+                    src="./src/imagens/memoteca.PNG"
+                    alt="memoteca"
+                    class="card-img"
+                  />
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">David Dell</h2>
+                <p class="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam dolorem odit, inventore ipsum eveniet aspernatur
+                  unde officiis. Odio porro corporis ducimus voluptates harum
+                  ex, excepturi corrupti, explicabo ipsum, nam voluptate.
+                </p>
+
+                <button class="button">View more</button>
+              </div>
+            </div>
+
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img
+                    src="./src/imagens/memoteca.PNG"
+                    alt="memoteca"
+                    class="card-img"
+                  />
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">David Dell</h2>
+                <p class="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam dolorem odit, inventore ipsum eveniet aspernatur
+                  unde officiis. Odio porro corporis ducimus voluptates harum
+                  ex, excepturi corrupti, explicabo ipsum, nam voluptate.
+                </p>
+
+                <button class="button">View more</button>
+              </div>
+            </div>
+
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img
+                    src="./src/imagens/memoteca.PNG"
+                    alt="memoteca"
+                    class="card-img"
+                  />
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">David Dell</h2>
+                <p class="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam dolorem odit, inventore ipsum eveniet aspernatur
+                  unde officiis. Odio porro corporis ducimus voluptates harum
+                  ex, excepturi corrupti, explicabo ipsum, nam voluptate.
+                </p>
+
+                <button class="button">View more</button>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="projeto ativo">
-          <a href="https://github.com/G1rl4nd0/React-page" target="_blank">
-            <img
-              src="/src/imagens/Capturar.PNG"
-              alt="Projeto Landing page GTA"
-            />
-            <h3>Projeto 2</h3>
-
-            <div class="informacoes-projeto">
-              <p>Projeto feito usando HTML, CSS e JavaScript</p>
-              <p>🔗 Ver no GitHub Pages</p>
-            </div>
-          </a>
-        </div>
-
-        <div class="projeto ativo">
-          <a
-            href="https://github.com/G1rl4nd0/X-Men"
-            target="_blank"
-          >
-            <img
-              src="./src/imagens/xmen-foto.PNG"
-              alt="Projeto landing page One Piece"
-            />
-            <h3>Projeto 3</h3>
-            <div class="informacoes-projeto">
-              <p>Projeto feito usando HTML, CSS e JavaScript</p>
-              <p>🔗 Ver no GitHub Pages</p>
-            </div>
-          </a>
-        </div>
-
-        <div class="projeto ativo">
-          <a href="https://github.com/G1rl4nd0/biblioteca-ideias" target="_blank">
-            <img
-              src="src/imagens/memoteca.PNG"
-              alt="Projeto seletor de personagens x-men"
-            />
-            <h3>Projeto 4</h3>
-            <div class="informacoes-projeto">
-              <p>Projeto feito usando HTML, CSS e JavaScript</p>
-              <p>🔗 Ver no GitHub Pages</p>
-            </div>
-          </a>
-        </div>
-
-        <!-- <div class="projeto">
-          <a href="#" target="_blank">
-            <img
-              src="https://via.placeholder.com/515X700"
-              alt="Projeto landing page Mario"
-            />
-            <h3>Projeto 5</h3>
-            <div class="informacoes-projeto">
-              <p>Projeto feito usando HTML, CSS e JavaScript</p>
-              <p>🔗 Ver no GitHub Pages</p>
-            </div>
-          </a>
-        </div>
-
-        <div class="projeto">
-          <a href="#" target="_blank">
-            <img
-              src="https://via.placeholder.com/515X700"
-              alt="Capa do projeto"
-            />
-            <h3>Projeto 6</h3>
-            <div class="informacoes-projeto">
-              <p>Projeto feito usando HTML, CSS e JavaScript</p>
-              <p>🔗 Ver no GitHub Pages</p>
-            </div>
-          </a>
-        </div>
-
-        <div class="projeto">
-          <a href="#" target="_blank">
-            <img
-              src="https://via.placeholder.com/515X700"
-              alt="Capa do projeto"
-            />
-            <h3>Projeto 7</h3>
-            <div class="informacoes-projeto">
-              <p>Projeto feito usando HTML, CSS e JavaScript</p>
-              <p>🔗 Ver no GitHub Pages</p>
-            </div>
-          </a>
-        </div>
-
-        <div class="projeto">
-          <a href="#" target="_blank">
-            <img
-              src="https://via.placeholder.com/515X700"
-              alt="Capa do projeto"
-            />
-            <h3>Projeto 8</h3>
-            <div class="informacoes-projeto">
-              <p>Projeto feito usando HTML, CSS e JavaScript</p>
-              <p>🔗 Ver no GitHub Pages</p>
-            </div>
-          </a>
-        </div> -->
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
       </div>
+    </div>
 
-      <button class="btn-mostrar-projetos">Mostrar mais</button>
-    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11.1.4/swiper-bundle.min.js"></script>
 
     <script src="./src/js/index.js"></script>
   </body>
