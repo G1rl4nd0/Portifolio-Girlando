@@ -36,8 +36,8 @@ html {
 .home {
   display: flex;
   min-height: calc(100vh - 125px);
-  gap: 50px;
   padding: 24px;
+  justify-content: space-between;
 }
 
 .home .informacoes {
