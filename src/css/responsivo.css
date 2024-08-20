@@ -81,7 +81,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 576px) {
   .home .informacoes h1 {
     font-size: 30px;
   }
@@ -96,5 +96,14 @@
 
   .projetos {
     padding: 30px;
+  }
+
+  .skills-content li {
+    flex: 1 40%;
+    margin: 10px;
+  }
+
+  .button {
+    width: 315px;
   }
 }
