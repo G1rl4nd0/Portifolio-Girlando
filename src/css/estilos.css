@@ -357,3 +357,17 @@ footer {
   transition: all 0.3s ease;
   font-family: "Poppins", sans-serif;
 }
+
+.skill-item p {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #06b6d4;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
